@@ -17,7 +17,7 @@ def orqa(update,context):
     update.message.reply_text('Bosh menu \n 🌅 Fasl - 🧾 Oy - 🌇Kun ', reply_markup=menu)
     
 def bosh(update: Update, context: CallbackContext) -> None:
-    update.message.reply_html(f'Assalom alaykum {update.effective_user.first_name} \n Botimizga Xush kelibsiz Psixalogiyangizni bilish uchun<b> 🌅 Fasl - 🧾 Oy - 🌇Kun </b> malumotlarni kiritib bilib olishingiz mumkin' , reply_markup=menu)
+    update.message.reply_html(f'Assalom alaykum {update.effective_user.first_name} \n\n Botimizga Xush kelibsiz Psixalogiyangizni bilish uchun<b> 🌅 Fasl - 🧾 Oy - 🌇Kun </b> malumotlarni kiritib bilib olishingiz mumkin' , reply_markup=menu)
     return 1
 
 def fasl(update, context):
