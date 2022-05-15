@@ -171,7 +171,7 @@ def k31(update,context):
     update.message.reply_text('Sadoqatli va kongli toza, sevgiga sodiq boladilar. Ular juda jahldor va injiq bolishlari ham mumkin. Xarakterlari juda ogir, bunaqa odamlarni ko`nliga qarab yashaydigan odamlargina baxtli qila oladilar.', reply_markup=back)
 
 #bot_token
-updater = Updater('1242435413:AAH_VYZqxfcUGdF6BEsAX2LU7_Mg3Q_7ZSo')
+updater = Updater('Token')
 
 #handler
 conv_handler = ConversationHandler(entry_points = [CommandHandler('start', bosh)],
